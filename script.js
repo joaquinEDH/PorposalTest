@@ -28,7 +28,7 @@ function showMessage(response) {
     noButton.addEventListener("mouseover", () => {
       if (!videoPlayed) {
         const videoElement = document.createElement("video");
-        videoElement.src = "./Sad Hamster Violin Meme .mp4#t=42";///
+        videoElement.src = "./Sad Hamster Violin Meme.mp4#t=42";///
         videoElement.autoplay = true;
         videoElement.controls = false;
         document.body.appendChild(videoElement);
